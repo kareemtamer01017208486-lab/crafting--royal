@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Majestic Aura | Royal Wedding Design &amp; Production</title>
+  <meta name="description" content="Majestic Aura designs and builds custom weddings from concept to reality: ceilings, lighting, kosha and full show management.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Cairo:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header" id="top">
+  <a class="logo" href="#top">Majestic Aura</a>
+  <button class="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
+  <nav id="nav" class="nav">
+    <a href="#top">Home</a>
+    <a href="#experience">The Aura Experience</a>
+    <a href="#portfolio">Our Portfolio</a>
+    <a href="#planner">Concept Design Calculator</a>
+    <a href="#planner" class="btn btn-gold btn-sm">Book a Consultation</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-bg" data-parallax></div>
+    <div class="hero-inner">
+      <h1>Crafting Royal Weddings From Concept to Reality</h1>
+      <p class="ar" lang="ar" dir="rtl">بنصمم وننفذ ليلة العمر.. من الإبرة للصاروخ</p>
+      <p class="sub">We don’t just plan weddings; we build custom-designed magical worlds. Production, ceiling installations, lighting and full management.</p>
+      <a class="btn btn-gold" data-wa="Hello Majestic Aura, I’d like to book a first consultation." href="#">Book your first consultation</a>
+    </div>
+  </section>
+
+  <section class="section" id="experience">
+    <h2>The Aura Experience</h2>
+    <p class="lead ar" lang="ar" dir="rtl">من الإبرة للصاروخ: كل مرحلة بنستلمها بإيدينا</p>
+    <div class="grid">
+      <article class="card reveal"><h3>Venue Architecture &amp; Concept Design</h3><p>2D and 3D plans of your hall or garden before a single piece is built.</p></article>
+      <article class="card reveal"><h3>3D Ceiling &amp; Truss Installations</h3><p>Full ceiling design: drapes, crystals and hanging floral art.</p></article>
+      <article class="card reveal"><h3>Intelligent Lighting &amp; Audio</h3><p>Cinematic lighting, sound system and entrance effects.</p></article>
+      <article class="card reveal"><h3>Couture Floral &amp; Kosha Styling</h3><p>Kosha, aisles and fresh and custom flower arrangements.</p></article>
+      <article class="card reveal"><h3>Show Management &amp; Hospitality</h3><p>Your night managed moment by moment: guests, entrance and program.</p></article>
+    </div>
+  </section>
+
+  <section class="section alt" id="portfolio">
+    <h2>Our Portfolio</h2>
+    <div class="filters" role="group" aria-label="Filter portfolio">
+      <button class="chip active" data-filter="all">All</button>
+      <button class="chip" data-filter="outdoor">Outdoor Weddings</button>
+      <button class="chip" data-filter="ballroom">Ballroom Luxe</button>
+      <button class="chip" data-filter="ceiling">Ceiling Design</button>
+      <button class="chip" data-filter="kosha">Kosha &amp; Stage</button>
+    </div>
+    
+    <div class="gallery">
+      <button class="tile" data-cat="ballroom" data-title="Gold glass dance floor" style="--img:var(--p-gold)"><span>Gold glass dance floor</span></button>
+      <button class="tile" data-cat="ceiling" data-title="Hanging floral ceiling" style="--img:var(--p-ceiling)"><span>Hanging floral ceiling</span></button>
+      <button class="tile" data-cat="outdoor" data-title="White arches garden kosha" style="--img:var(--p-arches)"><span>White arches garden kosha</span></button>
+      <button class="tile" data-cat="kosha" data-title="Draped entrance" style="--img:var(--p-entrance)"><span>Draped entrance</span></button>
+      <button class="tile" data-cat="outdoor" data-title="Garden floral canopy" style="--img:var(--p-canopy)"><span>Garden floral canopy</span></button>
+      <button class="tile" data-cat="ballroom" data-title="Crystal ceiling and LED stage" style="--img:var(--p-crystal)"><span>Crystal ceiling and LED stage</span></button>
+    </div>
+  </section>
+
+  <section class="section" id="planner">
+    <h2>Concept Design Calculator</h2>
+    <p class="lead">Pick what you have in mind. We’ll receive your selection on WhatsApp and prepare a concept for you.</p>
+    <form class="planner" id="plannerForm">
+      <label>Venue type
+        <select name="venue"><option>Ballroom</option><option>Outdoor garden</option><option>Other</option></select>
+      </label>
+      <label>Number of guests
+        <input type="number" name="guests" min="20" step="10" value="200">
+      </label>
+      <fieldset>
+        <legend>What do you need?</legend>
+        <label class="check"><input type="checkbox" name="svc" value="Concept design"> Concept design</label>
+        <label class="check"><input type="checkbox" name="svc" value="Ceiling installation"> Ceiling installation</label>
+        <label class="check"><input type="checkbox" name="svc" value="Lighting and audio"> Lighting and audio</label>
+        <label class="check"><input type="checkbox" name="svc" value="Kosha and flowers"> Kosha and flowers</label>
+        <label class="check"><input type="checkbox" name="svc" value="Show management"> Show management</label>
+      </fieldset>
+      <button class="btn btn-gold" type="submit">Send my selection on WhatsApp</button>
+    </form>
+  </section>
+
+  <section class="section alt" id="proof">
+    <h2>Brides who trusted us</h2>
+    <div class="stats">
+      <div><strong data-count="100" data-suffix="%+">0</strong><span>Custom Designs</span></div>
+      <div><strong data-count="360" data-suffix="°">0</strong><span>Full Production</span></div>
+      <div><strong data-count="0" data-prefix="Zero ">0</strong><span>Stress for Bride &amp; Groom</span></div>
+    </div>
+    <div class="grid">
+      <blockquote class="card reveal"><p lang="ar" dir="rtl">اكتب هنا رأي عروسة حقيقية.</p><cite>Bride name, venue</cite></blockquote>
+      <blockquote class="card reveal"><p lang="ar" dir="rtl">اكتب هنا رأي عريس حقيقي.</p><cite>Groom name, venue</cite></blockquote>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <a class="logo" href="#top">Majestic Aura</a>
+  <p><a data-wa="Hello Majestic Aura" href="#">WhatsApp</a> · <a href="https://instagram.com/YOUR_INSTAGRAM" target="_blank" rel="noopener">Instagram</a></p>
+  <p>Studio address: add your address here</p>
+  <p class="small">Designed with Passion for Majestic Aura © 2026</p>
+</footer>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lb-close" aria-label="Close">×</button>
+  <div class="lb-img" id="lbImg"></div>
+  <p id="lbCap"></p>
+  <p class="lb-note">تخطيط وتنفيذ كامل بواسطة فريق Majestic Aura</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
